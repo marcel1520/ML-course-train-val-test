@@ -47,15 +47,15 @@ class MoonModelV3(nn.Module):
     
 
 moon_model_V1_1 = MoonModelV1(2, 1, 16).to(device)
-moon_model_V1_2 = MoonModelV1(2, 1, 32).to(device)
+moon_model_V1_2 = MoonModelV1(2, 1, 64).to(device)
 
 
 moon_model_V2_1 = MoonModelV2(2, 1, 16).to(device)
-moon_model_V2_2 = MoonModelV2(2, 1, 32).to(device)
+moon_model_V2_2 = MoonModelV2(2, 1, 64).to(device)
 
 
 moon_model_V3_1 = MoonModelV3(2, 1, 16).to(device)
-moon_model_V3_2 = MoonModelV3(2, 1, 32).to(device)
+moon_model_V3_2 = MoonModelV3(2, 1, 64).to(device)
 
 
 # ------------------------------------------------
